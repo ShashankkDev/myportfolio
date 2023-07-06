@@ -1,0 +1,29 @@
+.project-container{
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding-bottom: 100px;
+}
+.project-heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.project-heading p{
+    font-weight: 500;
+}
+.project-heading h1{
+    background: -webkit-linear-gradient(80deg, rgba(69,90,244,1) 0%, rgba(19,48,67,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+.projects{
+    max-width: 1380px;
+    
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
