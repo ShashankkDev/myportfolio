@@ -107,6 +107,12 @@
         padding: 20px 20px;
         
     }
+    .about-content{
+        text-align: center;
+    }
+    .about-content p{
+        font-size: 14px;
+    }
     .about-image{
         height: 100%;
     }
