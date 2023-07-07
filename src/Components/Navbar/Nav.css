@@ -4,6 +4,7 @@
     width: 100%;
     margin: 0 auto;
     z-index: 100;
+    
   }
   .nav-container{
     height: 90px;
@@ -20,8 +21,9 @@
     margin: 0 auto;
   }
   
-  .logo img{
-    width: 75px;
+  .logo h3{
+    font-size: 20px;
+    padding-left: 10px;
   }
   
   .menu-toggle {
@@ -29,7 +31,7 @@
   }
   
   .nav-overlay {
-    position: fixed;
+    position: absolute;
     background-color: rgb(26, 34, 95);     /* white to black */  
     top: -100%;
     left: 0;
@@ -38,7 +40,7 @@
     overflow: hidden;
     padding: 4em;
     transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
-    
+    z-index: 100;
   }
   
   .hamBox {
@@ -49,13 +51,14 @@
     border-radius: 50%;
     transition: 0.3s ease;
     padding: 2.4em;
-    
+    z-index: 100;
     
   }
 
   .hamBoxOpen {
-    z-index: 3;
+    z-index: 101;
     background: #000000;
+    
   }
   
   .lineTop,
@@ -71,6 +74,7 @@
     right: 0;
     transform: rotate(0deg);
     transition: all 0.4s;
+    
   }
   
   .lineTop {
