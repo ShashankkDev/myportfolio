@@ -1,11 +1,15 @@
+
 import Stack from '../Headers/TechStack/Stacks/Stack'
 import './AboutMe.css'
 import myimage from '/images/myimage.png'
 import png from "/images/shape.png"
 
 const AboutMe = () => {
+
+  
+
   return (
-    <div className='about-container' >
+    <div className='about-container' id='about' >
     <div className="png">
       <img src={png} alt="png" />
     </div>

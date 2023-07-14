@@ -34,7 +34,7 @@ const ProjectComponent = () => {
       title: 'Paytm Clone',
       description: "The Paytm clone app is built using HTML for the structure and content of the web pages, and Tailwind CSS for styling and layout. ",
       imageUrl: '/images/myimage4.jpg',
-      tech: "HTML & CSS",
+      tech: "HTML & TailwindCSS",
       sitelink: "https://jordonshank.github.io/clonePay.github.io/",
       github: "https://github.com/JordonShank/clonePay.github.io",
     }

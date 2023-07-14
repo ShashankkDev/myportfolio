@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react'
+import React, { useState } from 'react'
 import "./Nav.css";
 import { Link } from 'react-router-dom';
 import {AiOutlineGithub, AiOutlineInstagram} from "react-icons/ai"
@@ -43,7 +43,7 @@ const Nav = () => {
               <div className="nav-item-wrapper"></div>
             </li>
             <li className="nav-item">
-              <Link to="/about" onClick={() => { setNavOpen(!navOpen)}}
+              <Link to="about" smooth={true} duration={500} onClick={() => { setNavOpen(!navOpen)}}
               style={{
                 top: navOpen ? "0" : "120px",
                 transitionDelay: navOpen ? "0.5s" : "0s",
@@ -54,7 +54,7 @@ const Nav = () => {
               <div className="nav-item-wrapper"></div>
             </li>
             <li className="nav-item">
-              <Link to="/projects" onClick={() => { setNavOpen(!navOpen)}} 
+              <Link to="projects" onClick={() => { setNavOpen(!navOpen)}} 
               style={{
                 top: navOpen ? "0" : "120px",
                 transitionDelay: navOpen ? "0.6s" : "0s",
@@ -65,7 +65,7 @@ const Nav = () => {
               <div className="nav-item-wrapper"></div>
             </li>
             <li className="nav-item">
-              <Link to="/contact" onClick={() => { setNavOpen(!navOpen)}}
+              <Link to="contact" onClick={() => { setNavOpen(!navOpen)}}
               style={{
                 top: navOpen ? "0" : "120px",
                 transitionDelay: navOpen ? "0.7s" : "0s",
