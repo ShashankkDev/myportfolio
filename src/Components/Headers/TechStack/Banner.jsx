@@ -5,7 +5,7 @@ const Banner = () => {
 
   const handleOpenResume = () => {
     // Open the resume PDF in a new window or tab
-    window.open('/images/resume.pdf', '_blank');
+    window.open('/images/shashank_resume.pdf', '_blank');
   };
 
 
