@@ -35,8 +35,16 @@ const ProjectComponent = () => {
       description: "The Paytm clone app is built using HTML for the structure and content of the web pages, and Tailwind CSS for styling and layout. ",
       imageUrl: '/images/myimage4.jpg',
       tech: "HTML & TailwindCSS",
-      sitelink: "https://jordonshank.github.io/clonePay.github.io/",
+      sitelink: "https://paytm-three.vercel.app/",
       github: "https://github.com/JordonShank/clonePay.github.io",
+    },
+    {
+      title: 'What ToDo',
+      description: "ToDo List App is a kind of app that generally used to maintain our day-to-day tasks or list everything ",
+      imageUrl: '/images/myimage5.jpg',
+      tech: "REACT",
+      sitelink: "https://todo-app-six-indol.vercel.app/",
+      github: "https://github.com/JordonShank/TodoApp",
     }
 
   ]
