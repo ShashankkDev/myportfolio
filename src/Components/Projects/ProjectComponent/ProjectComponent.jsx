@@ -9,7 +9,7 @@ const ProjectComponent = () => {
     {
       title: 'ZOCO-X',
       description: "Our website offers a wide range of digital equipment, Whether you're a professional gamer in search of a high-performance gaming mouse or a student in need of a reliable laptop for studying, we have you covered. Our collection includes renowned brands known for their quality and innovation.",
-      imageUrl: "/images/myimage1.jpg",
+      imageUrl: "/images/myimage1.png",
       tech: "REACT",
       sitelink: "https://zoco-x.vercel.app/",
       github: "https://github.com/JordonShank/e-comm-project",
