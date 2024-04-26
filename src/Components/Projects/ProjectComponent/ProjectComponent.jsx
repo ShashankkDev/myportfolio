@@ -6,9 +6,14 @@ import { AiFillGithub } from "react-icons/ai";
 const ProjectComponent = () => {
   const projects = [
     {
+<<<<<<< HEAD
       title: "ZOCO-X",
       description:
         "Our website offers a wide range of digital equipment, Whether you're a professional gamer in search of a high-performance gaming mouse or a student in need of a reliable laptop for studying, we have you covered. Our collection includes renowned brands known for their quality and innovation.",
+=======
+      title: 'ZOCO-X',
+      description: "Our website offers a wide range of digital equipment, Whether you're a professional gamer in search of a high-performance gaming mouse or a student in need of a reliable laptop for studying, we have you covered. Our collection includes renowned brands known for their quality and innovation.",
+>>>>>>> 820722a1294b01ab593ac19053907f0ba36aa49c
       imageUrl: "/images/myimage1.png",
       tech: "REACT",
       sitelink: "https://zoco-x.vercel.app/",
